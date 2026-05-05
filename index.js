@@ -36,5 +36,13 @@
 // console.log(`O é ${parOuImpar(7)}`);
 // Utilizando Arrow Function
 
-const Soma = (a, b) => a + b;
-console.log(Soma(2,2));
+// const Soma = (a, b) => a + b;
+// console.log(Soma(2,2));
+
+
+
+const NumeroParImpar = (numero) =>  numero  % 2 === 0 ? "Par" : "Impar";
+console.log(`${NumeroParImpar(1)}`);
+
+
+
