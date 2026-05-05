@@ -40,9 +40,13 @@
 // console.log(Soma(2,2));
 
 
+// arrow function
+// const NumeroParImpar = (numero) =>  numero  % 2 === 0 ? "Par" : "Impar";
+// console.log(`${NumeroParImpar(1)}`);
 
-const NumeroParImpar = (numero) =>  numero  % 2 === 0 ? "Par" : "Impar";
-console.log(`${NumeroParImpar(1)}`);
+const numeros = [1, 2, 12];
+const numeroMaior = Math.max(...numeros);
+console.log(numeroMaior);
 
 
 
