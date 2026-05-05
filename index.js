@@ -3,6 +3,8 @@
 // let numeroB = 6;
 // let somar = numeroA + numeroB;
 
+//const { useReducer } = require("react");
+
 // function Soma(numeroA, numeroB)
 // {
 //     console.log(`A soma dos dois numeros é ${somar}`)
@@ -54,9 +56,31 @@
 // console.log(numeroMaior);
 
 
-function ContarAteN (n) {
-    for(let i = 1; i <= n; i++){
-        console.log(i);
-    }
-}
-ContarAteN(10);
+// function ContarAteN (n) {
+//     for(let i = 1; i <= n; i++){
+//         console.log(i);
+//     }
+// }
+// ContarAteN(10);
+
+
+// function Tabuada(numero) {
+//     for (let i = 1; i <= 10; i++)
+//         {
+//             console.log(i * numero);
+//         }
+// }
+
+//Tabuada(6);
+
+let numeros = [1, 2, 3, 4]
+let somarArray = numeros[0];
+let somarArray2 = numeros[1];
+let somarArray3 = numeros[2];
+let somarArray4 = numeros[3];
+const resultado = somarArray + somarArray2 + somarArray3 + somarArray4;
+console.log(resultado);
+
+
+
+
