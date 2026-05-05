@@ -44,9 +44,19 @@
 // const NumeroParImpar = (numero) =>  numero  % 2 === 0 ? "Par" : "Impar";
 // console.log(`${NumeroParImpar(1)}`);
 
-const numeros = [1, 2, 12];
-const numeroMaior = Math.max(...numeros);
-console.log(numeroMaior);
+// const numeros = [1, 2, 12];
+// const numeroMaior = Math.max(...numeros);
+// console.log(numeroMaior);
 
 
+// const numeros = [10, 2312, 2, 344, 223, 223, 23234, 12]
+// const numeroMaior = Math.max(...numeros);
+// console.log(numeroMaior);
 
+
+function ContarAteN (n) {
+    for(let i = 1; i <= n; i++){
+        console.log(i);
+    }
+}
+ContarAteN(10);
