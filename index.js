@@ -16,10 +16,25 @@
 // }
 // console.log(`O resultado da soma é ${Soma(2, 2)}`);
 
-const soma = (a,b) => 
-    {
-        return a + b;
-    }   
+// const soma = (a,b) => 
+//     {
+//         return a + b;
+//     }   
     
-    console.log(`A soma e ${soma(10, 100)}`);
+//     console.log(`A soma e ${soma(1, 2)}`);
 
+
+//     function parOuImpar(numero) 
+//     {
+//         if(numero % 2 === 0)
+//         {
+//             return "É par";
+//         }else{
+//             return "É impar";
+//         }
+//     }
+// console.log(`O é ${parOuImpar(7)}`);
+// Utilizando Arrow Function
+
+const Soma = (a, b) => a + b;
+console.log(Soma(2,2));
