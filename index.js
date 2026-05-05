@@ -73,13 +73,24 @@
 
 //Tabuada(6);
 
-let numeros = [1, 2, 3, 4]
-let somarArray = numeros[0];
-let somarArray2 = numeros[1];
-let somarArray3 = numeros[2];
-let somarArray4 = numeros[3];
-const resultado = somarArray + somarArray2 + somarArray3 + somarArray4;
-console.log(resultado);
+// let numeros = [1, 2, 3, 4]
+// let somarArray = numeros[0];
+// let somarArray2 = numeros[1];
+// let somarArray3 = numeros[2];
+// let somarArray4 = numeros[3];
+// const resultado = somarArray + somarArray2 + somarArray3 + somarArray4;
+// console.log(resultado);
+
+ let numeros = [1, 2, 3, 4]
+ let soma = 0;
+
+ for(let i = 0; i <= numeros.length; i++)
+ {
+    soma += i;
+ }
+
+ console.log(soma);
+ 
 
 
 
